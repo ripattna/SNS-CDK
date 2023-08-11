@@ -2,3 +2,14 @@
 node_modules
 cdk.out
 package-lock.json
+test/
+
+*.ts
+!*.d.ts
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+.npmignore
+
+
